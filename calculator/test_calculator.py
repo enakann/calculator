@@ -2,6 +2,7 @@
 Unit tests for the calculator library
 """
 from . import calculator
+from . import dummy
 
 
 class TestCalculator:

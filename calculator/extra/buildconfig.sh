@@ -1,3 +1,15 @@
+final one
+#########
+pip install -r calculator/requirements.txt
+pylint -f parseable calculator | tee pylint.out
+#py.test --junitxml results.xml calculator
+nosetests --with-xunit --all-modules --traverse-namespace --with-coverage --cover-package=calculator --cover-inclusive
+python -m coverage xml --include=calculator*
+
+
+
+
+
 #!/usr/bin/env bash
 virtualenv env
 . env/bin/activate

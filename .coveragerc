@@ -1,0 +1,6 @@
+[run]
+source= D:\pylint\calculator
+include= D:\pylint\calculator
+omit=D:\pylint\calculator\calculator\dummy.py
+cover_pylib=False
+
