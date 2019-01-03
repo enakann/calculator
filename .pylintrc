@@ -18,7 +18,7 @@
 #max-line-length=119
 #disable=C0111,I0011,I0012,W0704,W0142,W0212,W0232,W0702,R0201,W0614,R0914,R0912,R0915,R0913,R0904
 #disable=C,W,R
-#enable=W0611,C0103
+enable=W0611,C0103
 
 ignore=dummy.py
 

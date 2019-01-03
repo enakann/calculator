@@ -25,3 +25,9 @@ pylint --disable=all --enable=C --rcfile=CalculatorLibrary/.pylintrc  Calculator
 
 -----------------------------
 pylint -j 4 mymodule1.py mymodule2.py mymodule3.py mymodule4.py   --parallel execution
+
+
+/etc/pylintrc for default global configuration
+~/.pylintrc for default user configuration
+<your project>/pylintrc for default project configuration (used when you'll run pylint <your project>)
+wherever you want, then use pylint --rcfile=<wherever I want>
