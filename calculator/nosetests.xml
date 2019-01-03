@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="1" errors="1" failures="0" skip="0"><testcase classname="nose.failure.Failure" name="runTest" time="0.001"><error type="builtins.ImportError" message="No module named 'CalculatorLibrary'"><![CDATA[Traceback (most recent call last):
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\unittest\case.py", line 605, in run
+    testMethod()
+  File "d:\calculatorlibrary\venv\lib\site-packages\nose\failure.py", line 39, in runTest
+    raise self.exc_val.with_traceback(self.tb)
+  File "d:\calculatorlibrary\venv\lib\site-packages\nose\loader.py", line 418, in loadTestsFromName
+    addr.filename, addr.module)
+  File "d:\calculatorlibrary\venv\lib\site-packages\nose\importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "d:\calculatorlibrary\venv\lib\site-packages\nose\importer.py", line 79, in importFromDir
+    fh, filename, desc = find_module(part, path)
+  File "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\lib\imp.py", line 297, in find_module
+    raise ImportError(_ERR_MSG.format(name), name=name)
+ImportError: No module named 'CalculatorLibrary'
+]]></error></testcase></testsuite>
